@@ -8,7 +8,6 @@ import Home from './pages/home';
 
 
 function App() {
-  usePageTracking(); 
   return (
     <div className="App">
       <Routes>
