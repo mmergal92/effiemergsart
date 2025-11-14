@@ -1,9 +1,14 @@
-import pillsimage from '../assets/pills-test-image.png';
-import horse from '../assets/horse.png';
+import DuckPainting from '../assets/DuckPainting.jpg';
+import PillsPainting from '../assets/PillsPainting.jpg';
+import RoomDoodlesPainting from '../assets/RoomDoodlesPainting.jpg';
+import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
+import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
+import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
+import UntitledHorse3Painting from '../assets/UntitledHorse3Painting.png';
 
 const artworks = [
   {
-    image: pillsimage,
+    image: PillsPainting,
     title: 'Pills',
     year: 2025,
     medium: 'Acrylic on Canvas',
@@ -11,12 +16,52 @@ const artworks = [
     available: true, // can inquire
   },
   {
-    image: horse,
+    image: UntitledHorse1Painting,
+    title: 'Untitled',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '5" x 7"',
+    available: true, // sold
+  },
+    {
+    image: UntitledHorse2Painting,
     title: 'Untitled',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
     available: false, // sold
+  },
+    {
+    image: UntitledHorse3Painting,
+    title: 'Untitled',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '5" x 7"',
+    available: true, // sold
+  },
+    {
+    image: RoomDoodlesPainting,
+    title: 'Untitled',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '16" x 20"',
+    available: true, // sold
+  },
+    {
+    image: DuckPainting,
+    title: 'Duck',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '16" x 20"',
+    available: false, // sold
+  },
+    {
+    image: SittingLadyPainting,
+    title: 'Sitting Lady',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '36" x 48"',
+    available: true, // sold
   },
   // Add more artworks here
 ];
