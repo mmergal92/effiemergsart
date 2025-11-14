@@ -32,10 +32,10 @@ const Home = () => {
                   <img src={art.image} alt={art.title} />
                 </div>
                 <div className="grid-item text">
-                  <p>{art.title}</p>
-                  <p>{art.year}</p>
-                  <p>{art.medium}</p>
-                  <p>{art.size}</p>
+                  <p className="artwork-title">{art.title}</p>
+                  <p className="artwork-details">{art.year}</p>
+                  <p className="artwork-details">{art.medium}</p>
+                  <p className="artwork-details">{art.size}</p>
                   {/* Inquire button */}
                   <a 
                     href="mailto:effiemergs@gmail.com" 

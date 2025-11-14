@@ -72,7 +72,7 @@
 
 /* Artwork title mimicking David Zwirner */
 .artwork-title {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.25rem; /* larger and prominent */
   font-weight: 600;
   text-transform: uppercase; /* small caps feel */
@@ -81,10 +81,10 @@
 
 /* Artwork details */
 .artwork-details {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  color: #555; /* muted gray */
+  color: #909090; /* muted gray */
   margin: 0.15rem 0;
 }
 
@@ -98,13 +98,13 @@
   font-weight: 500;
   color: #000;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #909090;
   border-radius: 2px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .inquire-button:hover {
-  background-color: #000;
+  background-color: #909090;
   color: #fff;
 }
