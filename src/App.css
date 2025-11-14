@@ -40,6 +40,10 @@
     transform: rotate(360deg);
   }
 }
+.main-content{
+  padding-top: 104px;
+  padding-bottom: 96px;
+}
 .grid-container {
   display: flex;
   flex-direction: column;
