@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <main className="home-content fade-in fade-in-delay-2">
-        <h1 className="headline">Header Text</h1>
+        <h1 className="headline">Effie Mergs Art</h1>
 
         <section className="main-content" id="main">
           <div className="grid-container">
