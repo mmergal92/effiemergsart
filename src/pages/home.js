@@ -16,7 +16,7 @@ const Home = () =>{
     
 
           <div className="testimonial-slider-container">
-               <p className="main-content">main content
+               <p className="main-content-p">main content
                 </p>
             </div>
 
