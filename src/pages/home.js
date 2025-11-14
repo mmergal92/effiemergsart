@@ -1,10 +1,24 @@
 import pillsimage from '../assets/pills-test-image.png';
 import horse from '../assets/horse.png';
 
+const artworks = [
+  {
+    image: pillsimage,
+    title: 'Pills',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+  },
+  {
+    image: horse,
+    title: 'Horse',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '5" x 7"',
+  },
+  // Add more artworks here
+];
 const Home = () => {
-  // Placeholder arrays for images and text, can replace with your real content
-  const rows = Array.from({ length: 10 });
-
   return (
     <div className="home-page">
       <main className="home-content fade-in fade-in-delay-2">
@@ -12,30 +26,16 @@ const Home = () => {
 
         <section className="main-content" id="main">
           <div className="grid-container">
-            {rows.map((_, index) => (
+            {artworks.map((art, index) => (
               <div className="grid-row" key={index}>
                 <div className="grid-item image">
-                  <img
-                    src={pillsimage}
-                    alt={`pills-image`}
-                  />  <img
-                    src={horse}
-                    alt={`pills-image`}
-                  />
+                  <img src={art.image} alt={art.title} />
                 </div>
                 <div className="grid-item text">
-                  {/* Replace with your text */}
-                  <p>Pills</p>
-                  <p>2025</p>
-                  <p>Acrylic on Canvas</p>
-                  <p>8" x 10"</p>
-                </div>
-                         <div className="grid-item text">
-                  {/* Replace with your text */}
-                  <p>Horse</p>
-                  <p>2025</p>
-                  <p>Acrylic on Canvas</p>
-                  <p>5"x7"</p>
+                  <p>{art.title}</p>
+                  <p>{art.year}</p>
+                  <p>{art.medium}</p>
+                  <p>{art.size}</p>
                 </div>
               </div>
             ))}
