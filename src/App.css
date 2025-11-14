@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* spacing between rows */
+  padding: 2rem;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* image left, text right */
+  gap: 2rem;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid-item.text p {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+/* Responsive: stack image on top of text on small screens */
+@media (max-width: 768px) {
+  .grid-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
