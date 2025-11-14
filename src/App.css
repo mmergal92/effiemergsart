@@ -116,3 +116,12 @@
   background-color: #909090;
   color: #fff;
 }
+
+.sold-label {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #888; /* muted gray */
+  text-transform: uppercase;
+}

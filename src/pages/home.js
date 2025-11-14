@@ -8,6 +8,7 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
+    available: true, // can inquire
   },
   {
     image: horse,
@@ -15,6 +16,7 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
+    available: false, // sold
   },
   // Add more artworks here
 ];
@@ -37,12 +39,14 @@ const Home = () => {
                   <p className="artwork-details">{art.medium}</p>
                   <p className="artwork-details">{art.size}</p>
                   {/* Inquire button */}
-                  <a 
-                    href="mailto:effiemergs@gmail.com" 
-                    className="inquire-button"
-                  >
-                    Inquire
-                  </a>
+                 
+                  {art.available ? (
+                    <a href="mailto:effiemergs@gmail.com" className="inquire-button">
+                      Inquire
+                    </a>
+                  ) : (
+                    <span className="sold-label">Sold</span>
+                  )}
                 </div>
               </div>
             ))}
