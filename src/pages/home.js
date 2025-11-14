@@ -11,7 +11,7 @@ const artworks = [
   },
   {
     image: horse,
-    title: 'Horse',
+    title: 'Untitled',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
