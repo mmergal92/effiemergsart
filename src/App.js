@@ -12,8 +12,6 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home/>}/>
-        {/* <Route path="/home" element={<Navigate to="/" replace />} /> */}
-        {/* <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
     </div>
   );
