@@ -51,9 +51,11 @@
 }
 
 .grid-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 100%;         /* full width of container */
+  max-height: 350px;   /* do not exceed 300px height */
+  object-fit: contain; /* scale image to fit, no cropping */
+  display: block;      /* remove inline spacing issues */
+  margin: 0 auto;      /* center image if smaller than container */
 }
 
 .grid-item.text p {
