@@ -36,6 +36,13 @@ const Home = () => {
                   <p>{art.year}</p>
                   <p>{art.medium}</p>
                   <p>{art.size}</p>
+                  {/* Inquire button */}
+                  <a 
+                    href="mailto:effiemergs@gmail.com" 
+                    className="inquire-button"
+                  >
+                    Inquire
+                  </a>
                 </div>
               </div>
             ))}
