@@ -78,7 +78,7 @@
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.25rem; /* larger and prominent */
   font-weight: 600;
-  text-transform: uppercase; /* small caps feel */
+  text-transform: capitalize; /* small caps feel */
   margin-bottom: 0.5rem;
 }
 
@@ -95,7 +95,7 @@
 .inquire-button {
   display: inline-block;
   margin-top: 0.75rem;
-  padding: 0.35rem 0.75rem;
+  padding: 8px 15px;
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
