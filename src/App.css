@@ -29,6 +29,7 @@
 }
 .headline{
   text-align: left !important;
+  padding-left:16px;
 }
 
 @keyframes App-logo-spin {
