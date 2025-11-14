@@ -4,7 +4,7 @@ import RoomDoodlesPainting from '../assets/RoomDoodlesPainting.jpg';
 import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
 import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
-import UntitledHorse3Painting from '../assets/UntitledHorse3Painting.png';
+import UntitledHorse3Painting from '../assets/UntitledHorse3Painting.jpg';
 
 const artworks = [
   {
