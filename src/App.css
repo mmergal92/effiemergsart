@@ -77,13 +77,6 @@
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .grid-row {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-}
-
 /* Artwork title mimicking David Zwirner */
 .artwork-title {
   font-family: "Nunito Sans", sans-serif;
@@ -301,20 +294,30 @@
     margin-left: auto;
     margin-right: 0;
   }
-.grid-container {
-  padding: 16px;
-}
-  /* Grid rows on homepage: stack properly */
-  .grid-row {
-    grid-template-columns: 1fr; /* single column on mobile */
-    gap: 1.5rem;
-    align-content: left;
+
+    .grid-row {
+    display: flex;
+    flex-direction: column; /* stack image above text */
+        grid-template-columns: 1fr;
+    align-items: flex-start; /* left-align everything */
+    gap: 1rem;
   }
-  .grid-item img {
-    margin: 0 !important; /* remove auto centering */
+  /* Grid item image */
+  .grid-item.image img {
+    margin: 0; /* remove auto centering */
+    max-width: 100%; /* ensure image fits container */
+    height: auto;
+    object-fit: contain;
   }
 
+  /* Grid item text */
   .grid-item.text {
-    text-align: left; /* artwork text right-aligned on mobile */
+    text-align: left; /* ensure text is left-aligned */
+    padding-left: 0; /* remove any extra padding if needed */
+  }
+
+  /* Container padding for mobile */
+  .grid-container {
+    padding: 16px;
   }
 }
