@@ -310,8 +310,8 @@
     gap: 1.5rem;
     align-content: left;
   }
-  .grid-item img{
-  margin: 0; 
+  .grid-item img {
+    margin: 0 !important; /* remove auto centering */
   }
 
   .grid-item.text {
