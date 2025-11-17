@@ -231,3 +231,24 @@
   background-color: #e5e7eb;
   color: #000;
 }
+/* Top-right clickable site title */
+.notfound-header {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.site-title-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.site-title-link .headline {
+  font-size: 1.25rem; /* smaller than main 404 headline */
+  font-weight: 600;
+  margin: 0;
+}
+
+.site-title-link:hover .headline {
+  opacity: 0.7;
+}
