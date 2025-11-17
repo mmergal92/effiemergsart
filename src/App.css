@@ -285,14 +285,14 @@
 @media (max-width: 768px) {
   /* Header (homepage + 404) */
   .headline {
-    text-align: right;
+    text-align: left;
   }
 
   /* Homepage main content */
   .home-content .main-content,
   /* 404 main content */
   .notfound-content {
-    text-align: right; /* text right-aligned on mobile */
+    text-align: left; /* text right-aligned on mobile */
     padding: 2rem 1.5rem;
   }
 
@@ -306,9 +306,10 @@
   .grid-row {
     grid-template-columns: 1fr; /* single column on mobile */
     gap: 1.5rem;
+    align-content: left;
   }
 
   .grid-item.text {
-    text-align: right; /* artwork text right-aligned on mobile */
+    text-align: left; /* artwork text right-aligned on mobile */
   }
 }
