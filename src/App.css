@@ -301,12 +301,17 @@
     margin-left: auto;
     margin-right: 0;
   }
-
+.grid-container {
+  padding: 16px;
+}
   /* Grid rows on homepage: stack properly */
   .grid-row {
     grid-template-columns: 1fr; /* single column on mobile */
     gap: 1.5rem;
     align-content: left;
+  }
+  .grid-item img{
+  margin: 0; 
   }
 
   .grid-item.text {
