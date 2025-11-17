@@ -286,7 +286,11 @@
     margin-left: auto;
     margin-right: 0;
   }
-
+.grid-container {
+  display: flex;
+  flex-direction: row;
+    padding: 16px;
+}
     .grid-row {
       display: grid; /* keep grid */
     grid-template-columns: 1fr; /* single column */
@@ -306,10 +310,6 @@
     padding-left: 0; /* remove any extra padding if needed */
   }
 
-  /* Container padding for mobile */
-  .grid-container {
-    padding: 16px;
-  }
     .clickable-image {
     pointer-events: none; /* disables clicking on mobile */
     cursor: default;
