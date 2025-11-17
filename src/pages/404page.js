@@ -29,7 +29,7 @@ const NotFound = () => {
           Effie Mergs Art — All rights reserved {new Date().getFullYear()}
         </div>
         <div className="footer-right">
-          <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/effiemergs/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
           <a href="mailto:effiemergs@gmail.com">
