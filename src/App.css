@@ -264,8 +264,9 @@
   padding: 1.5rem 2rem;
   font-size: 0.8rem;
   border-top: 1px solid #eee;
-  width: 100%;
+  width: 100vw; /* full viewport width to prevent horizontal scroll */
   background-color: #fff;
+  box-sizing: border-box; /* include padding in width */
   margin-top: auto;
 }
 
