@@ -294,9 +294,9 @@
     padding: 16px;
 }
     .grid-row {
-      display: grid; /* keep grid */
-    grid-template-columns: 1fr; /* single column */
-    gap: 1rem;
+      display: flex;
+    flex-direction: column; /* stack items vertically */
+    gap: 1rem; /* spacing between image and text */
   }
   /* Grid item image */
   .grid-item.image img {
