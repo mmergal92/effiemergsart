@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 // PAGES
 import Home from './pages/home';
-import NotFound from './pages/NotFound'; // import your 404 page
+import NotFound from './pages/404page'; // import your 404 page
 
 function App() {
   return (
