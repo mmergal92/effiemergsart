@@ -72,6 +72,7 @@
 }
 .grid-item.text {
   text-align: left;
+  padding-left: 40px;
 }
 .grid-item.text p {
   margin: 0.25rem 0;
