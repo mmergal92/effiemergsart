@@ -5,6 +5,7 @@ import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
 import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
+import { useState } from 'react';
 
 const artworks = [
   {
@@ -65,7 +66,10 @@ const artworks = [
   },
   // Add more artworks here
 ];
+
 const Home = () => {
+  const [lightboxImage, setLightboxImage] = useState(null);
+
   return (
     <div className="home-page">
       <main className="home-content fade-in fade-in-delay-2">
@@ -76,15 +80,20 @@ const Home = () => {
             {artworks.map((art, index) => (
               <div className="grid-row" key={index}>
                 <div className="grid-item image">
-                  <img src={art.image} alt={art.title} />
+                  <img
+                    src={art.image}
+                    alt={art.title}
+                    onClick={() => setLightboxImage(art.image)}
+                    className="clickable-image"
+                  />
                 </div>
+
                 <div className="grid-item text">
                   <p className="artwork-title">{art.title}</p>
                   <p className="artwork-details">{art.year}</p>
                   <p className="artwork-details">{art.medium}</p>
                   <p className="artwork-details">{art.size}</p>
-                  {/* Inquire button */}
-                 
+
                   {art.available ? (
                     <a href="mailto:effiemergs@gmail.com" className="inquire-button">
                       Inquire
@@ -97,7 +106,29 @@ const Home = () => {
             ))}
           </div>
         </section>
+
+        {/* LIGHTBOX */}
+        {lightboxImage && (
+          <div className="lightbox" onClick={() => setLightboxImage(null)}>
+            <img src={lightboxImage} alt="Artwork enlarged" className="lightbox-img" />
+          </div>
+        )}
       </main>
+
+      {/* FOOTER */}
+      <footer className="site-footer">
+        <div className="footer-left">
+          Effie Mergs Art — All rights reserved {new Date().getFullYear()}
+        </div>
+        <div className="footer-right">
+          <a href="https://instagram.com/yourhandle" target="_blank">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:effiemergs@gmail.com">
+            <i className="fas fa-envelope"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   );
 };

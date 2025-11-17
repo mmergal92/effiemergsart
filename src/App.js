@@ -1,16 +1,16 @@
 import './App.css';
-//IMPORT ROUTE and COMPONENTS
-import {Route, Routes} from "react-router-dom";
+// ROUTER
+import { Route, Routes } from "react-router-dom";
+// PAGES
 import Home from './pages/home';
-// import PageNotFound from './pages/404page';
-
-
+import NotFound from './pages/NotFound'; // import your 404 page
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<NotFound />} /> {/* catch-all 404 route */}
       </Routes>
     </div>
   );
