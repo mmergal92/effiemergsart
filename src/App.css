@@ -28,7 +28,8 @@
   color: #61dafb;
 }
 .headline{
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align: left !important;
@@ -83,8 +84,8 @@
 
 /* Artwork title mimicking David Zwirner */
 .artwork-title {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
     font-size: 1.25rem; /* larger and prominent */
   font-weight: 600;
@@ -94,7 +95,8 @@
 
 /* Artwork details */
 .artwork-details {
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
     font-size: 0.875rem;
