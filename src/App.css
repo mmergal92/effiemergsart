@@ -107,21 +107,21 @@
 .inquire-button {
   display: inline-block;
   margin-top: 0.75rem;
-  padding: 10px 25px;
+  padding: .8125rem 1.5625rem;
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
   background-color: #fff;
-  border: 1px solid #909090;
-  border-radius: 2px;
+  border: 1px solid #e5e7eb;
+  border-radius: 0px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .inquire-button:hover {
-  background-color: #909090;
-  color: #fff;
+  background-color: #e5e7eb;
+  color: #000;
 }
 
 .sold-label {
