@@ -161,16 +161,7 @@
   object-fit: contain;
 }
 
-/* FOOTER */
-.site-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 2rem;
-  font-size: 0.8rem;
-  border-top: 1px solid #eee;
-  margin-top: 4rem;
-}
+
 
 .footer-left {
   font-family: "Nunito Sans", sans-serif;
@@ -192,21 +183,43 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding: 2rem;
+  position: relative;
 }
 
-.notfound-content .headline {
+.notfound-header {
+  text-align: left; /* Left-aligned to match homepage */
+  margin-bottom: 4rem;
+}
+
+.site-title-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.site-title-link .headline {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 6rem;
+  font-weight: 400; /* match homepage */
+  font-size: 2rem;  /* match homepage */
+  margin: 0;
+}
+
+/* Main 404 content left-aligned */
+.notfound-content {
+  text-align: left;
+  flex: 1; /* push footer to bottom */
+}
+
+.notfound-404 {
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
-  margin-bottom: 1rem;
+  font-size: 6rem;
+  margin: 0 0 1rem 0;
 }
 
 .notfound-message {
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.25rem;
   color: #909090;
   margin-bottom: 2rem;
@@ -214,7 +227,7 @@
 
 .notfound-content .inquire-button {
   display: inline-block;
-  margin-top: 0.75rem;
+  margin-top: 0;
   padding: 0.8125rem 1.5625rem;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -231,24 +244,30 @@
   background-color: #e5e7eb;
   color: #000;
 }
-/* Top-right clickable site title */
-.notfound-header {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+
+/* Footer fixed at bottom, full width */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  font-size: 0.8rem;
+  border-top: 1px solid #eee;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; /* match homepage footer bg */
+  z-index: 1000;
 }
 
-.site-title-link {
-  text-decoration: none;
-  color: #000;
-}
-
-.site-title-link .headline {
-  font-size: 1.25rem; /* smaller than main 404 headline */
-  font-weight: 600;
-  margin: 0;
-}
-
-.site-title-link:hover .headline {
-  opacity: 0.7;
-}
+/* 
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  font-size: 0.8rem;
+  border-top: 1px solid #eee;
+  margin-top: 4rem;
+} */
