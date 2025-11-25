@@ -269,66 +269,42 @@
 
 
 /* Mobile-specific adjustments for both homepage and 404 page */
-/* Mobile-specific adjustments for both homepage and 404 page */
 @media (max-width: 768px) {
-  /* Kill the global centering from .App on mobile */
-  .App {
-    text-align: left;
-  }
-
-  /* Header */
-  .headline {
-    text-align: left;
-    font-size: 28px;
-    padding: 1.5rem 1rem 0;
-  }
-
-  /* Homepage main content */
-  .home-content .main-content,
-  /* 404 main content */
-  .notfound-content {
-    text-align: left;
-    padding: 2rem 1.5rem;
-  }
-
-  .notfound-center {
-    margin-left: auto;
-    margin-right: 0;
-  }
-
-  /* Grid layout: stack image + text */
+  /* Layout */
   .grid-container {
-    display: flex;
-    flex-direction: column;
     padding: 16px;
     gap: 2.5rem;
   }
 
   .grid-row {
-    display: block; /* stack items vertically */
+    display: flex;              /* stack items */
+    flex-direction: column;     /* image on top, text below */
+    align-items: flex-start;    /* left-align everything */
   }
 
-  .grid-item.image {
-    margin-bottom: 0.75rem;
+  .grid-item.image,
+  .grid-item.text {
+    width: 100%;
   }
 
   .grid-item.image img {
-    margin: 0;
+    margin: 0;                  /* no centering */
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    display: block;
   }
 
   .grid-item.text {
+    padding-left: 0;            /* remove desktop left padding */
+    margin-top: 0.75rem;
     text-align: left;
-    padding-left: 0;
   }
 
-  /* Make text bigger on mobile */
+  /* Make mobile text a bit bigger */
   .artwork-title {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 0.35rem;
   }
 
   .artwork-details {
@@ -340,12 +316,4 @@
     font-size: 14px;
     padding: 0.75rem 1.6rem;
   }
-
-  /* Optional: if you *do* want lightbox on mobile, remove this.
-     Otherwise this keeps it disabled on phones */
-  .clickable-image {
-    pointer-events: none;
-    cursor: default;
-  }
 }
-
