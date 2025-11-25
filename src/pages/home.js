@@ -5,6 +5,8 @@ import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
 import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
+import Bullpainting from '../assets/Bullpainting.jpg'
+import earth1painting from '../assets/earth1painting.jpg'
 import { useState } from 'react';
 
 const artworks = [
@@ -22,7 +24,7 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
-    available: true, // sold
+    available: true, 
   },
     {
     image: UntitledHorse2Painting,
@@ -38,7 +40,7 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
-    available: true, // sold
+    available: true, 
   },
     {
     image: RoomDoodlesPainting,
@@ -46,7 +48,7 @@ const artworks = [
     year: 2022,
     medium: 'Acrylic on Canvas',
     size: '16" x 20"',
-    available: true, // sold
+    available: true, 
   },
     {
     image: DuckPainting,
@@ -54,7 +56,7 @@ const artworks = [
     year: 2022,
     medium: 'Acrylic on Canvas',
     size: '16" x 20"',
-    available: false, // sold
+    available: false, 
   },
     {
     image: SittingLadyPainting,
@@ -62,7 +64,23 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '36" x 48"',
-    available: true, // sold
+    available: true, 
+  },
+      {
+    image: Bullpainting,
+    title: 'Bull',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '16" x 20"',
+    available: true, 
+  },
+      {
+    image: earth1painting,
+    title: 'Earth',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+    available: true, 
   },
   // Add more artworks here
 ];
