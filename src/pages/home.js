@@ -18,22 +18,6 @@ const artworks = [
     size: '8" x 10"',
     available: true, // can inquire
   },
-  {
-    image: UntitledHorse1Painting,
-    title: 'Untitled',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '5" x 7"',
-    available: true, 
-  },
-    {
-    image: UntitledHorse2Painting,
-    title: 'Untitled',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '5" x 7"',
-    available: false, // sold
-  },
     {
     image: UntitledHorse3Painting,
     title: 'Untitled',
@@ -91,7 +75,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <main className="home-content fade-in fade-in-delay-2">
-        <h1 className="headline">Effie Mergs Art</h1>
+        <h1 className="headline">Effie Mergs</h1>
 
         <section className="main-content" id="main">
           <div className="grid-container">
@@ -136,7 +120,7 @@ const Home = () => {
       {/* FOOTER */}
       <footer className="site-footer">
         <div className="footer-left">
-          Effie Mergs Art — All rights reserved {new Date().getFullYear()}
+          Effie Mergs — All rights reserved {new Date().getFullYear()}
         </div>
         <div className="footer-right">
           <a href="https://www.instagram.com/effiemergs/" target="_blank">

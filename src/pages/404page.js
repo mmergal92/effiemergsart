@@ -7,7 +7,7 @@ const NotFound = () => {
       {/* Header (left-aligned, like homepage) */}
       <header className="notfound-header">
         <Link to="/" className="site-title-link">
-          <h1 className="headline">Effie Mergs Art</h1>
+          <h1 className="headline">Effie Mergs</h1>
         </Link>
       </header>
 
@@ -26,7 +26,7 @@ const NotFound = () => {
       {/* Footer */}
       <footer className="site-footer">
         <div className="footer-left">
-          Effie Mergs Art — All rights reserved {new Date().getFullYear()}
+          Effie Mergs — All rights reserved {new Date().getFullYear()}
         </div>
         <div className="footer-right">
           <a href="https://www.instagram.com/effiemergs/" target="_blank" rel="noopener noreferrer">
