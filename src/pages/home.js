@@ -2,8 +2,8 @@ import DuckPainting from '../assets/DuckPainting.jpg';
 import PillsPainting from '../assets/PillsPainting.jpg';
 import RoomDoodlesPainting from '../assets/RoomDoodlesPainting.jpg';
 import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
-import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
-import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
+// import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
+// import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
 import Bullpainting from '../assets/Bullpainting.jpg'
 import earth1painting from '../assets/earth1painting.jpg'
