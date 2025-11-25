@@ -19,16 +19,35 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXGBNX1FPK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NXGBNX1FPK');
+</script>
 
  <!-- ✅ Add JSON-LD structured data here -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Effie Mergs",
+  "url": "https://effiemergsart.com",
+  "description": "Effie Mergs is a painter and visual artist creating expressive, colorful works in acrylic and mixed media.",
+  "image": "https://effiemergsart.com/favicon-effie.png",
+  "sameAs": [
+    "https://instagram.com/effiemergs" 
+  ],
+  "jobTitle": "Artist",
+  "worksFor": {
     "@type": "Organization",
-    "name": "Effie Mergs Art
+    "name": "Effie Mergs Art"
   }
-  </script>
-
+}
+</script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -46,6 +65,7 @@
     <title>Effie Mergs Art</title>
   </head>
   <body>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

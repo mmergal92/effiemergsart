@@ -269,51 +269,83 @@
 
 
 /* Mobile-specific adjustments for both homepage and 404 page */
+/* Mobile-specific adjustments for both homepage and 404 page */
 @media (max-width: 768px) {
-  /* Header (homepage + 404) */
+  /* Kill the global centering from .App on mobile */
+  .App {
+    text-align: left;
+  }
+
+  /* Header */
   .headline {
     text-align: left;
+    font-size: 28px;
+    padding: 1.5rem 1rem 0;
   }
 
   /* Homepage main content */
   .home-content .main-content,
   /* 404 main content */
   .notfound-content {
-    text-align: left; /* text right-aligned on mobile */
+    text-align: left;
     padding: 2rem 1.5rem;
   }
 
-  /* Center wrapper on 404 page (shift to right) */
   .notfound-center {
     margin-left: auto;
     margin-right: 0;
   }
-.grid-container {
-  display: flex;
-  flex-direction: column;
+
+  /* Grid layout: stack image + text */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
     padding: 16px;
-}
-    .grid-row {
-      display: grid; /* keep grid */
-    grid-template-columns: 1fr; /* single column */
-    gap: 1rem;
+    gap: 2.5rem;
   }
-  /* Grid item image */
+
+  .grid-row {
+    display: block; /* stack items vertically */
+  }
+
+  .grid-item.image {
+    margin-bottom: 0.75rem;
+  }
+
   .grid-item.image img {
-    margin: 0; /* remove auto centering */
-    max-width: 100%; /* ensure image fits container */
+    margin: 0;
+    max-width: 100%;
     height: auto;
     object-fit: contain;
   }
 
-  /* Grid item text */
   .grid-item.text {
-    text-align: left; /* ensure text is left-aligned */
-    padding-left: 0; /* remove any extra padding if needed */
+    text-align: left;
+    padding-left: 0;
   }
 
-    .clickable-image {
-    pointer-events: none; /* disables clicking on mobile */
+  /* Make text bigger on mobile */
+  .artwork-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  .artwork-details {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .inquire-button {
+    font-size: 14px;
+    padding: 0.75rem 1.6rem;
+  }
+
+  /* Optional: if you *do* want lightbox on mobile, remove this.
+     Otherwise this keeps it disabled on phones */
+  .clickable-image {
+    pointer-events: none;
     cursor: default;
   }
 }
+
