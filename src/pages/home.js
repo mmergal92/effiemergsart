@@ -56,7 +56,7 @@ const artworks = [
     year: 2022,
     medium: 'Acrylic on Canvas',
     size: '16" x 20"',
-    available: true, 
+    available: false, 
   },
       {
     image: earth1painting,
