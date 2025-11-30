@@ -35,20 +35,28 @@ const artworks = [
     available: true, 
   },
     {
-    image: DuckPainting,
-    title: 'Duck',
-    year: 2022,
-    medium: 'Acrylic on Canvas',
-    size: '16" x 20"',
-    available: false, 
-  },
-    {
     image: SittingLadyPainting,
     title: 'Sitting Lady',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '36" x 48"',
     available: true, 
+  },
+  {
+    image: earth1painting,
+    title: 'Earth',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+    available: true, 
+  },
+    {
+    image: DuckPainting,
+    title: 'Duck',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '16" x 20"',
+    available: false, 
   },
       {
     image: Bullpainting,
@@ -58,14 +66,7 @@ const artworks = [
     size: '16" x 20"',
     available: false, 
   },
-      {
-    image: earth1painting,
-    title: 'Earth',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '8" x 10"',
-    available: true, 
-  },
+      
   // Add more artworks here
 ];
 
