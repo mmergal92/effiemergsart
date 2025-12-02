@@ -7,6 +7,13 @@ import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
 import Bullpainting from '../assets/Bullpainting.jpg'
 import earth1painting from '../assets/earth1painting.jpg'
+
+import earth2 from '../assets/earth2.jpg'
+import Forest from '../assets/Forest.jpg'
+import girlwithearringpainting from '../assets/girlwithearringpainting.jpg'
+import UNTITLEDABSTRACT1 from '../assets/UNTITLEDABSTRACT1.jpg'
+import UNTITLEDABSTRACT2 from '../assets/UNTITLEDABSTRACT2.jpg'
+
 import { useState } from 'react';
 
 const artworks = [
@@ -22,6 +29,14 @@ const artworks = [
     image: UntitledHorse3Painting,
     title: 'Untitled',
     year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '5" x 7"',
+    available: true, 
+  },
+   {
+    image: girlwithearringpainting,
+    title: 'Girl with Earring',
+    year: 2020,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
     available: true, 
@@ -42,9 +57,41 @@ const artworks = [
     size: '36" x 48"',
     available: true, 
   },
+    {
+    image: UNTITLEDABSTRACT1,
+    title: 'Untitled',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '20.5" x 26"',
+    available: true, 
+  },
+    {
+    image: UNTITLEDABSTRACT2,
+    title: 'Untitled',
+    year: 2022,
+    medium: 'Acrylic on Canvas',
+    size: '11.5" x 17"',
+    available: true, 
+  },
   {
     image: earth1painting,
     title: 'Earth',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+    available: true, 
+  },
+   {
+    image: earth2,
+    title: 'Earth 2',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '5" x 7"',
+    available: true, 
+  },
+   {
+    image: Forest,
+    title: 'Winter Forest',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
