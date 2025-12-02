@@ -27,6 +27,14 @@ const artworks = [
     available: true, // can inquire
   },
    {
+    image: grandmothersgarden,
+    title: 'Grandmother\'s garden',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '10" x 20"',
+    available: true, 
+  },
+   {
     image: UNTITLEDABSTRACT1,
     title: 'Untitled',
     year: 2022,
@@ -90,15 +98,6 @@ const artworks = [
     size: '8" x 10"',
     available: true, 
   },
-   {
-    image: grandmothersgarden,
-    title: 'Grandmother\'s garden',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '10" x 20"',
-    available: true, 
-  },
-  
     {
     image: DuckPainting,
     title: 'Duck',
