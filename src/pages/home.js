@@ -7,6 +7,7 @@ import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
 import Bullpainting from '../assets/Bullpainting.jpg'
 import earth1painting from '../assets/earth1painting.jpg'
+import grandmothersgarden from '../assets/grandmothersgarden.jpg'
 
 // import earth2 from '../assets/earth2.jpg'
 import Forest from '../assets/Forest.jpg'
@@ -81,7 +82,7 @@ const artworks = [
     size: '8" x 10"',
     available: true, 
   },
-   {
+  {
     image: Forest,
     title: 'Winter Forest',
     year: 2025,
@@ -89,6 +90,15 @@ const artworks = [
     size: '8" x 10"',
     available: true, 
   },
+   {
+    image: grandmothersgarden,
+    title: 'Grandmother\'s garden',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '10" x 20"',
+    available: true, 
+  },
+  
     {
     image: DuckPainting,
     title: 'Duck',
