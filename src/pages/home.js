@@ -6,11 +6,11 @@ import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 // import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
 import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
 import Bullpainting from '../assets/Bullpainting.jpg'
-import earth1painting from '../assets/earth1painting.jpg'
+// import earth1painting from '../assets/earth1painting.jpg'
 import grandmothersgarden from '../assets/grandmothersgarden.jpg'
-
+import flower from '../assets/flower.jpg'
 // import earth2 from '../assets/earth2.jpg'
-import Forest from '../assets/Forest.jpg'
+// import Forest from '../assets/Forest.jpg'
 import girlwithearringpainting from '../assets/girlwithearringpainting.jpg'
 import UNTITLEDABSTRACT1 from '../assets/UNTITLEDABSTRACT1.jpg'
 import UNTITLEDABSTRACT2 from '../assets/UNTITLEDABSTRACT2.jpg'
@@ -32,6 +32,14 @@ const artworks = [
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '10" x 20"',
+    available: true, 
+  },
+   {
+    image: flower,
+    title: 'Flower',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
     available: true, 
   },
    {
@@ -82,22 +90,22 @@ const artworks = [
     size: '36" x 48"',
     available: true, 
   },
-  {
-    image: earth1painting,
-    title: 'Earth',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '8" x 10"',
-    available: true, 
-  },
-  {
-    image: Forest,
-    title: 'Winter Forest',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '8" x 10"',
-    available: true, 
-  },
+  // {
+  //   image: earth1painting,
+  //   title: 'Earth',
+  //   year: 2025,
+  //   medium: 'Acrylic on Canvas',
+  //   size: '8" x 10"',
+  //   available: true, 
+  // },
+  // {
+  //   image: Forest,
+  //   title: 'Winter Forest',
+  //   year: 2025,
+  //   medium: 'Acrylic on Canvas',
+  //   size: '8" x 10"',
+  //   available: true, 
+  // },
     {
     image: DuckPainting,
     title: 'Duck',
