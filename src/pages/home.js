@@ -14,6 +14,7 @@ import flower from '../assets/flower.jpg'
 import girlwithearringpainting from '../assets/girlwithearringpainting.jpg'
 import UNTITLEDABSTRACT1 from '../assets/UNTITLEDABSTRACT1.jpg'
 import UNTITLEDABSTRACT2 from '../assets/UNTITLEDABSTRACT2.jpg'
+import flordemaga from '../assets/flordemaga.jpg'
 
 import { useState } from 'react';
 
@@ -25,6 +26,14 @@ const artworks = [
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
     available: true, // can inquire
+  },
+      {
+    image: flordemaga,
+    title: 'Flor de Maga',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+    available: true, 
   },
    {
     image: grandmothersgarden,
