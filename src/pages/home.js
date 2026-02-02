@@ -45,7 +45,7 @@ const artworks = [
   },
    {
     image: flower,
-    title: 'Flower',
+    title: 'Untitled',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
@@ -125,7 +125,7 @@ const artworks = [
   },
       {
     image: Bullpainting,
-    title: 'Bull',
+    title: 'Toro',
     year: 2022,
     medium: 'Acrylic on Canvas',
     size: '16" x 20"',
