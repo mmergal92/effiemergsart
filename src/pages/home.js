@@ -153,6 +153,10 @@ const Home = () => {
                     alt={art.title}
                     onClick={() => setLightboxImage(art.image)}
                     className="clickable-image"
+                    loading="lazy"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                    }}
                   />
                 </div>
 
