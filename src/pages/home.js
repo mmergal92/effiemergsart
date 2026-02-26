@@ -2,9 +2,11 @@ import DuckPainting from '../assets/DuckPainting.jpg';
 import PillsPainting from '../assets/PillsPainting.jpg';
 import RoomDoodlesPainting from '../assets/RoomDoodlesPainting.jpg';
 import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
+import crushpainting from '../assets/crushpainting.jpg';
+import mariaspainting from '../assets/mariaspainting.jpg';
 // import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
 // import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
-import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
+// import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
 import Bullpainting from '../assets/Bullpainting.jpg'
 // import earth1painting from '../assets/earth1painting.jpg'
 import grandmothersgarden from '../assets/grandmothersgarden.jpg'
@@ -19,6 +21,22 @@ import flordemaga from '../assets/flordemaga.jpg'
 import { useState } from 'react';
 
 const artworks = [
+    {
+    image: mariaspainting,
+    title: 'Marias',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '12" x 16"',
+    available: true, // can inquire
+  },
+    {
+    image: crushpainting,
+    title: 'Crush',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '24" x 36"',
+    available: true, // can inquire
+  },
   {
     image: PillsPainting,
     title: 'Pills',
@@ -29,7 +47,7 @@ const artworks = [
   },
       {
     image: flordemaga,
-    title: 'Flor de Maga',
+    title: 'Boriken',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
@@ -37,7 +55,7 @@ const artworks = [
   },
    {
     image: grandmothersgarden,
-    title: 'Grandmother\'s garden',
+    title: 'Backyard',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '10" x 20"',
@@ -45,7 +63,7 @@ const artworks = [
   },
    {
     image: flower,
-    title: 'Untitled',
+    title: 'Cement',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '8" x 10"',
@@ -77,7 +95,7 @@ const artworks = [
   },
    {
     image: girlwithearringpainting,
-    title: 'Girl with Earring',
+    title: 'Earrings',
     year: 2020,
     medium: 'Acrylic on Canvas',
     size: '5" x 7"',
@@ -85,7 +103,7 @@ const artworks = [
   },
     {
     image: RoomDoodlesPainting,
-    title: 'Untitled',
+    title: 'Room',
     year: 2022,
     medium: 'Acrylic on Canvas',
     size: '16" x 20"',
@@ -93,7 +111,7 @@ const artworks = [
   },
     {
     image: SittingLadyPainting,
-    title: 'Sitting Lady',
+    title: 'Gash',
     year: 2025,
     medium: 'Acrylic on Canvas',
     size: '36" x 48"',
