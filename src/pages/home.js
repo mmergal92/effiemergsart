@@ -85,14 +85,7 @@ const artworks = [
     size: '11.5" x 17"',
     available: true, 
   },
-    {
-    image: UntitledHorse3Painting,
-    title: 'Untitled',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '5" x 7"',
-    available: true, 
-  },
+
    {
     image: girlwithearringpainting,
     title: 'Earrings',
@@ -117,22 +110,6 @@ const artworks = [
     size: '36" x 48"',
     available: true, 
   },
-  // {
-  //   image: earth1painting,
-  //   title: 'Earth',
-  //   year: 2025,
-  //   medium: 'Acrylic on Canvas',
-  //   size: '8" x 10"',
-  //   available: true, 
-  // },
-  // {
-  //   image: Forest,
-  //   title: 'Winter Forest',
-  //   year: 2025,
-  //   medium: 'Acrylic on Canvas',
-  //   size: '8" x 10"',
-  //   available: true, 
-  // },
     {
     image: DuckPainting,
     title: 'Duck',
