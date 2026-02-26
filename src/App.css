@@ -46,7 +46,7 @@
   }
 }
 .main-content{
-  padding-top: 104px;
+  padding-top: 14px;
   padding-bottom: 96px;
 }
 .grid-container {
@@ -324,7 +324,7 @@
 }
 .artist-bio {
   max-width: 680px;
-  margin: 4rem auto 1.5rem;
+  margin: 4rem auto;
   line-height: 1.7;
   font-size: 1rem;
 }
