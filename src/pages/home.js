@@ -139,6 +139,15 @@ const Home = () => {
       <main className="home-content fade-in fade-in-delay-2">
         <h1 className="headline">Effie Mergs</h1>
 
+      <section className="artist-bio">
+        <p>
+          Effie Mergs is a born-and-raised New York City artist working in Brooklyn, whose acrylic paintings are an exploration of her origins and identity. Rooted in Spanish and Puerto Rican heritage, her work honors the richness of cultural belonging while examining the tension of existing between worlds: the cultures that shaped her and the city that continues to shape her.
+        </p>
+        <p>
+          Her grit and energy pulse through her canvases, creating a visual dialogue between the warmth of her roots and the landscape that has always been home. Through color, texture, and layered storytelling, Effie's paintings invite you into something deeply personal, a meditation on duality, belonging, and what it means to carry more than one world within you.
+        </p>
+      </section>
+
         <section className="main-content" id="main">
           <div className="grid-container">
             {artworks.map((art, index) => (
