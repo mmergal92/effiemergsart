@@ -22,6 +22,14 @@ import { useState } from 'react';
 
 const artworks = [
     {
+    image: PillsPainting,
+    title: 'Pills',
+    year: 2025,
+    medium: 'Acrylic on Canvas',
+    size: '8" x 10"',
+    available: true, // can inquire
+  },
+    {
     image: mariaspainting,
     title: 'Marias',
     year: 2025,
@@ -37,14 +45,7 @@ const artworks = [
     size: '24" x 36"',
     available: true, // can inquire
   },
-  {
-    image: PillsPainting,
-    title: 'Pills',
-    year: 2025,
-    medium: 'Acrylic on Canvas',
-    size: '8" x 10"',
-    available: true, // can inquire
-  },
+
       {
     image: flordemaga,
     title: 'Boriken',
