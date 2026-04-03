@@ -40,7 +40,7 @@ const artworks = [
   },
    {
     image: playapainting,
-    title: 'Marias',
+    title: 'Playa',
     year: 2026,
     medium: 'Acrylic on Canvas',
     size: '12" x 16"',
