@@ -4,6 +4,7 @@ import RoomDoodlesPainting from '../assets/RoomDoodlesPainting.jpg';
 import SittingLadyPainting from '../assets/SittingLadyPainting.jpg';
 import crushpainting from '../assets/crushpainting.jpg';
 import mariaspainting from '../assets/mariaspainting.jpg';
+import playapainting from '../assets/Playa.jpg';
 // import UntitledHorse1Painting from '../assets/UntitledHorse1Painting.jpg';
 // import UntitledHorse2Painting from '../assets/UntitledHorse2Painting.jpg';
 // import UntitledHorse3Painting from '../assets/UntitledHorse3painting.jpg';
@@ -32,7 +33,15 @@ const artworks = [
     {
     image: mariaspainting,
     title: 'Marias',
-    year: 2025,
+    year: 2026,
+    medium: 'Acrylic on Canvas',
+    size: '12" x 16"',
+    available: true, // can inquire
+  },
+   {
+    image: playapainting,
+    title: 'Marias',
+    year: 2026,
     medium: 'Acrylic on Canvas',
     size: '12" x 16"',
     available: true, // can inquire
